@@ -1,46 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dress Business Tools</title>
-    <style>
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #1a1a2e; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; }
-        .container { width: 100%; max-width: 400px; }
-        .logo { text-align: center; margin-bottom: 30px; }
-        .logo h1 { color: white; font-size: 28px; }
-        .logo p { color: #888; font-size: 14px; margin-top: 5px; }
-        .card { background: white; border-radius: 20px; padding: 25px; margin-bottom: 15px; text-decoration: none; display: block; transition: transform 0.2s; }
-        .card:hover { transform: translateY(-3px); }
-        .card-icon { font-size: 32px; margin-bottom: 10px; }
-        .card-title { font-size: 18px; font-weight: 700; color: #1a1a2e; margin-bottom: 5px; }
-        .card-desc { font-size: 13px; color: #666; }
-        .footer { text-align: center; color: #555; font-size: 12px; margin-top: 30px; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PK LIBAS - Business Tools</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);min-height:100vh;display:flex;justify-content:center;align-items:center;padding:20px}
+.container{background:rgba(255,255,255,0.95);backdrop-filter:blur(20px);border-radius:24px;box-shadow:0 25px 80px rgba(0,0,0,0.15);padding:40px 30px;max-width:480px;width:100%;text-align:center}
+.title{font-family:'Playfair Display',serif;font-size:2.8rem;font-weight:700;color:#2d3748;letter-spacing:3px;margin-bottom:6px}
+.subtitle{font-size:0.85rem;font-weight:500;color:#764ba2;letter-spacing:4px;text-transform:uppercase;margin-bottom:40px}
+.card{display:block;background:#f7fafc;border-radius:16px;padding:22px;margin-bottom:16px;text-decoration:none;transition:all 0.3s ease;border:2px solid transparent}
+.card:hover{background:white;border-color:#667eea;transform:translateY(-3px);box-shadow:0 8px 25px rgba(102,126,234,0.2)}
+.card-icon{font-size:28px;margin-bottom:8px}
+.card-title{font-size:1.1rem;font-weight:700;color:#2d3748;margin-bottom:4px}
+.card-desc{font-size:0.8rem;color:#718096}
+.footer{margin-top:30px;font-size:0.75rem;color:#a0aec0}
+</style>
 </head>
 <body>
-    <div class="container">
-        <div class="logo">
-            <h1>👗 Dress Business</h1>
-            <p>Management Tools</p>
-        </div>
-        <a href="moderator.html" class="card">
-            <div class="card-icon">👤</div>
-            <div class="card-title">Moderator Panel</div>
-            <div class="card-desc">Calculator + Reverse Image Search</div>
-        </a>
-        <a href="reseller.html" class="card">
-            <div class="card-icon">💰</div>
-            <div class="card-title">Reseller Calculator</div>
-            <div class="card-desc">Price calculator for resellers</div>
-        </a>
-        <a href="orders.html" class="card">
-            <div class="card-icon">📦</div>
-            <div class="card-title">Order Manager</div>
-            <div class="card-desc">Track orders, payments & deliveries</div>
-        </a>
-        <div class="footer">Works on Android, iOS & Desktop</div>
-    </div>
+<div class="container">
+<h1 class="title">PK LIBAS</h1>
+<p class="subtitle">Business Management Tools</p>
+<a href="moderator.html" class="card">
+<div class="card-icon">👤</div>
+<div class="card-title">Moderator Panel</div>
+<div class="card-desc">Customer Price Calculator + Image Search</div>
+</a>
+<a href="reseller.html" class="card">
+<div class="card-icon">💰</div>
+<div class="card-title">Reseller Calculator</div>
+<div class="card-desc">Simple price calculator for resellers</div>
+</a>
+<a href="orders.html" class="card">
+<div class="card-icon">📦</div>
+<div class="card-title">Order Manager</div>
+<div class="card-desc">Track orders, payments & deliveries</div>
+</a>
+<div class="footer">Works on Android, iOS & Desktop</div>
+</div>
 </body>
 </html>
